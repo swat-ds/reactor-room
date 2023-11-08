@@ -4,10 +4,20 @@ main:
     url: /
   - title: "About"
     url: /about
+  - title: "Course"
+    url: /course
   - title: "Respond"
     url: /respond
 
 splash:
+  - title: "Contexts"
+    children:
+      - title: "The Exhibition"
+        url: "/about"
+      - title: "The Course"
+        url: "/course"
+      - title: "Nuclear Energy Basics"
+        url: "/projects/nuclear-power"
   - title: 'Connections'
     children:
       - title: "Home"

@@ -1,5 +1,7 @@
 <div class="contributors">
 
+
+
 {% for contributor in page.contributors %}
 
 <div class="contributor">
@@ -10,7 +12,15 @@
 {{ contributor.bio | prepend: n | markdownify }}
 
 </div>
+
 <div class="clearfix"></div>
 </div>
 {% endfor %}
+
+<div>
+    {% if page.course %}
+    <p><em>{{ page.course }}</em></p>
+    {% endif %}
+</div>
+
 </div>
